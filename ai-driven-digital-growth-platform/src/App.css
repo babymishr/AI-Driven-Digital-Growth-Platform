@@ -1,0 +1,9 @@
+/* App-level resets — actual styles live in index.css & component CSS files */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+main {
+  /* offset for fixed navbar */
+  padding-top: 0;
+}
