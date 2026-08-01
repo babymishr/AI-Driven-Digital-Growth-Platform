@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
 
     // '/' works for both Netlify and local dev
-    base: '/',
+    base: '/AI-Driven-Digital-Growth-Platform/',
 
     server: {
       proxy: {
