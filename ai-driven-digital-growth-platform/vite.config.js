@@ -7,8 +7,8 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
 
-    // GitHub Pages repository name
-    base: '/AI-Driven-Digital-Growth-Platform/',
+    // '/' works for both Netlify and local dev
+    base: '/',
 
     server: {
       proxy: {

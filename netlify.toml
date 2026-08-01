@@ -1,0 +1,9 @@
+[build]
+  base    = "ai-driven-digital-growth-platform"
+  command = "npm run build"
+  publish = "ai-driven-digital-growth-platform/dist"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
